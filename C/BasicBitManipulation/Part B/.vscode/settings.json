@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "bitmanipulation.h": "c",
+        "stdio.h": "c"
+    }
+}

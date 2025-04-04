@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "filemanager.h": "c",
+        "encoder.h": "c"
+    }
+}
