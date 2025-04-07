@@ -1,0 +1,49 @@
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.exe
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.deps.json
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.runtimeconfig.json
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.dll
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.pdb
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.Form1.resources
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.csproj.GenerateResource.cache
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.GeneratedMSBuildEditorConfig.editorconfig
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.AssemblyInfoInputs.cache
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.AssemblyInfo.cs
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.csproj.CoreCompileInputs.cache
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.sourcelink.json
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.dll
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\refint\StreamingMusicApplicaiton.dll
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.pdb
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.genruntimeconfig.cache
+F:\PCB-Software\Week 12\Code\27.11.2023\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\ref\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.exe
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.deps.json
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.runtimeconfig.json
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.pdb
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.csproj.GenerateResource.cache
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.GeneratedMSBuildEditorConfig.editorconfig
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.AssemblyInfoInputs.cache
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.AssemblyInfo.cs
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.csproj.CoreCompileInputs.cache
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\refint\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.pdb
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.genruntimeconfig.cache
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\ref\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\Toni\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.Main.resources
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.exe
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.deps.json
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.runtimeconfig.json
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\bin\Debug\net8.0-windows\StreamingMusicApplicaiton.pdb
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.Main.resources
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.csproj.GenerateResource.cache
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.GeneratedMSBuildEditorConfig.editorconfig
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.AssemblyInfoInputs.cache
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.AssemblyInfo.cs
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.csproj.CoreCompileInputs.cache
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\refint\StreamingMusicApplicaiton.dll
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.pdb
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\StreamingMusicApplicaiton.genruntimeconfig.cache
+D:\FONTYS\Profile phase\week 15-16\StreamingMusicApplicaiton\obj\Debug\net8.0-windows\ref\StreamingMusicApplicaiton.dll

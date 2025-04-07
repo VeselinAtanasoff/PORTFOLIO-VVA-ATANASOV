@@ -1,0 +1,14 @@
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\bin\Debug\net8.0\Logic Simulator.exe
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\bin\Debug\net8.0\Logic Simulator.deps.json
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\bin\Debug\net8.0\Logic Simulator.runtimeconfig.json
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\bin\Debug\net8.0\Logic Simulator.dll
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\bin\Debug\net8.0\Logic Simulator.pdb
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.AssemblyInfoInputs.cache
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.AssemblyInfo.cs
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.csproj.CoreCompileInputs.cache
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.dll
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\refint\Logic Simulator.dll
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.pdb
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\Logic Simulator.genruntimeconfig.cache
+D:\Fontys sem 2\Assignment 3 C#\Logic Simulator\obj\Debug\net8.0\ref\Logic Simulator.dll

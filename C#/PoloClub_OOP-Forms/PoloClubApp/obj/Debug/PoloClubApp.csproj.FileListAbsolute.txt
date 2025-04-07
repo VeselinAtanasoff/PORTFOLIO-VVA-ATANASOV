@@ -1,0 +1,10 @@
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\bin\Debug\PoloClubApp.exe.config
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\bin\Debug\PoloClubApp.exe
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\bin\Debug\PoloClubApp.pdb
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.csproj.AssemblyReference.cache
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.PoloClubAppForm.resources
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.Properties.Resources.resources
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.csproj.GenerateResource.cache
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.csproj.CoreCompileInputs.cache
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.exe
+D:\Fontys sem 2\Week 5\C# lessons\Polo Club\PoloClubApp\obj\Debug\PoloClubApp.pdb
