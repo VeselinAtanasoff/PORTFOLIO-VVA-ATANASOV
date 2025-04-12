@@ -1,0 +1,39 @@
+#ifndef MACADDRESSES_H
+#define MACADDRESSES_H
+
+#include <stdint.h>
+#include <vector>
+#include <algorithm>
+
+#include "IMacAddresses.h"
+
+// Struct
+#include "MacAddress.h"
+
+// Class
+#include "ENeighbouringNode.h"
+
+class MacAddresses : public IMacAddresses
+{
+    public:
+    
+    bool addMacAddress(Mac_Address, int) override;
+    int removeMacAddress(int) override;
+    uint8_t getPeer(NEIGHBOURING_NODE, int, int) override;
+
+
+    uint8_t monitor[SIZE_MACADDRRESS] = {0x7C, 0x9E, 0xBD, 0xF3, 0xDE, 0x0C}; // Marco Monitor
+    std::vector<Mac_Address> vectorMAs = {
+    // {0xC8, 0xF0, 0x9E, 0x4E, 0x50, 0x64}, // Veselin
+    // {0xA0, 0xB7, 0x65, 0xDC, 0x34, 0xF0}, // Lisa
+    // {0x94, 0xB9, 0x7E, 0xC0, 0x08, 0x6C}, // Marco
+    // {0xCC, 0xDB, 0xA7, 0x3F, 0xC9, 0x50}, // Feng
+    // {0x24, 0x0A, 0xC4, 0x60, 0xE3, 0xC4}, // Jovan
+    {0x40, 0x22, 0xD8, 0x3B, 0xED, 0x38}, // Jovan
+    // {0x7C, 0x9E, 0xBD, 0xF4, 0x26, 0x94}, // Feng
+    };
+
+};
+
+
+#endif

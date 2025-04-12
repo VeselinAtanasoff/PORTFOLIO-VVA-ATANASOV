@@ -1,0 +1,11 @@
+#ifndef ENEIGHBOURINGNODE_H
+#define ENEIGHBOURINGNODE_H
+
+enum NEIGHBOURING_NODE {
+    MOST_LEFT = -2,
+    LEFT = -1,
+    RIGHT = 1,
+    MOST_RIGHT = 2,
+};
+
+#endif

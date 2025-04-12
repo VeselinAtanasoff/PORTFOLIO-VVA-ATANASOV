@@ -1,0 +1,6 @@
+# Authors
+Veselin Atanasov, Feng Wu, Lisa Curvers, Marco Jacobs, Jovan Christopher, Mykyta Matiuschenko
+# Context
+The idea behind this project is to create a decentralized system for street lighting. The street lights communicate with eachother using ESP-NOW. The lights are equipped with sensors which detect movement. Once a light detects movement, it starts working at full intensity and also sends a message to neighbour nodes which start working at 75% capacity and the neighbours also sned messagess to their neghoburs to start work at 50% intensity and so on in a regressive pattern until the furtest light from the activation point works at 10% intensity. This ensures a well lit environment while also not wasting energy. The status of the lights are also monitored by a centralized monitor. The nodes send messagess to it in case of hardware failure(the bulb is burnt, broken or missing) and connection error(the current node fails to communicate with a neghbour). 
+# My contribution
+Connection class, Light class, UML(of Connection class and Light class), Overall state machine design(my idea, which we adjusted based on ideas of my colleagues and trial and error), Light status checking system, Integration, Mocking(HandleConnectionError() and HandleNight()), Integration

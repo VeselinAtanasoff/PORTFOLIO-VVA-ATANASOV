@@ -1,0 +1,10 @@
+#ifndef EUSERINPUT_H
+#define EUSERINPUT_H
+
+enum USER_INPUT {
+    ADD_MAC_ADDRESS = 1,
+    REMOVE_MAC_ADDRESS = 2,
+    SEND_MAC_ADDRESSES = 3,
+};
+
+#endif

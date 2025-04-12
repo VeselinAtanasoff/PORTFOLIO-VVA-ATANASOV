@@ -1,0 +1,1106 @@
+[
+    {
+        "id": "8f4871acfac9d46e",
+        "type": "tab",
+        "label": "COM_Project",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c16b5a984632cafa",
+        "type": "group",
+        "z": "8f4871acfac9d46e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "15babd648b87d275",
+            "4b921957eb8391da",
+            "1711bd4556e8daa2",
+            "68244cda6e36c3fe",
+            "13495ecbb7b38fd0",
+            "b099816623d8f705",
+            "1a3bb754cb2a3834",
+            "533fab131181a8af",
+            "8c0d4008fb2903fc",
+            "6002aabfa59db8ea",
+            "92c719f80bb43aef",
+            "9edbcbcb5af5bbc5",
+            "4b51acf4c7554a82",
+            "523bfa6e9477e30e"
+        ],
+        "x": 194,
+        "y": 279,
+        "w": 1352,
+        "h": 402
+    },
+    {
+        "id": "56c632db8f7a3481",
+        "type": "group",
+        "z": "8f4871acfac9d46e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "697272d5532e944f",
+            "dbda618fad1c1469",
+            "ea10728a672b33c1",
+            "48c43adabd7c67e9",
+            "f335b966b972647c",
+            "499c3d38ef1a6e0a",
+            "5a7de6b7422f9078"
+        ],
+        "x": 194,
+        "y": 739,
+        "w": 1352,
+        "h": 142
+    },
+    {
+        "id": "15031ea617ef2e65",
+        "type": "group",
+        "z": "8f4871acfac9d46e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "487f05847272580d",
+            "e97d57bfcb6f4c92",
+            "37678f12e00645a6",
+            "047f7ce114ae65b4",
+            "c13457fbb628992f"
+        ],
+        "x": 774,
+        "y": 939,
+        "w": 772,
+        "h": 202
+    },
+    {
+        "id": "cc8d631ec31de256",
+        "type": "group",
+        "z": "8f4871acfac9d46e",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b78202c1bb19d776",
+            "6822064bef082c06",
+            "5444cf762a45e0f1",
+            "317c958c12f6e4a1",
+            "ef554b2d65a79406",
+            "41c78b8727d9fe35",
+            "f02a550993db91a8",
+            "96b6b553d3054641",
+            "e8ac26b1cd6f1814"
+        ],
+        "x": 194,
+        "y": 939,
+        "w": 532,
+        "h": 202
+    },
+    {
+        "id": "15babd648b87d275",
+        "type": "mqtt out",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "topic": "EngineBrakeControl",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4b4cb29adcc3af17",
+        "x": 600,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4b921957eb8391da",
+        "type": "debug",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "Brakes Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "1711bd4556e8daa2",
+        "type": "ui_gauge",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "group": "4d91cc4c589bd1e2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "RPM",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "7000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 550,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "68244cda6e36c3fe",
+        "type": "ui_slider",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "label": "Engine Speed Slider",
+        "tooltip": "",
+        "group": "4d91cc4c589bd1e2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "7000",
+        "step": 1,
+        "className": "",
+        "x": 320,
+        "y": 500,
+        "wires": [
+            [
+                "92c719f80bb43aef"
+            ]
+        ]
+    },
+    {
+        "id": "13495ecbb7b38fd0",
+        "type": "mqtt in",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "topic": "EngineSpeedControl",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4b4cb29adcc3af17",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 440,
+        "wires": [
+            [
+                "1711bd4556e8daa2"
+            ]
+        ]
+    },
+    {
+        "id": "487f05847272580d",
+        "type": "ui_button",
+        "z": "8f4871acfac9d46e",
+        "g": "15031ea617ef2e65",
+        "name": "",
+        "group": "89d09f84b62e507a",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Headlights Button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "H",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 910,
+        "y": 980,
+        "wires": [
+            [
+                "047f7ce114ae65b4",
+                "c13457fbb628992f"
+            ]
+        ]
+    },
+    {
+        "id": "e97d57bfcb6f4c92",
+        "type": "ui_button",
+        "z": "8f4871acfac9d46e",
+        "g": "15031ea617ef2e65",
+        "name": "",
+        "group": "89d09f84b62e507a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Left Indicator Button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "L",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 900,
+        "y": 1040,
+        "wires": [
+            [
+                "047f7ce114ae65b4",
+                "c13457fbb628992f"
+            ]
+        ]
+    },
+    {
+        "id": "37678f12e00645a6",
+        "type": "ui_button",
+        "z": "8f4871acfac9d46e",
+        "g": "15031ea617ef2e65",
+        "name": "",
+        "group": "89d09f84b62e507a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Right Indicator Button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "R",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 900,
+        "y": 1100,
+        "wires": [
+            [
+                "047f7ce114ae65b4",
+                "c13457fbb628992f"
+            ]
+        ]
+    },
+    {
+        "id": "047f7ce114ae65b4",
+        "type": "mqtt out",
+        "z": "8f4871acfac9d46e",
+        "g": "15031ea617ef2e65",
+        "name": "",
+        "topic": "LightSwitchCar",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4b4cb29adcc3af17",
+        "x": 1440,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "c13457fbb628992f",
+        "type": "debug",
+        "z": "8f4871acfac9d46e",
+        "g": "15031ea617ef2e65",
+        "name": "Lights Debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "b099816623d8f705",
+        "type": "ui_button",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "group": "4d91cc4c589bd1e2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "BRAKES",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "B",
+        "payloadType": "str",
+        "topic": "payload",
+        "topicType": "msg",
+        "x": 360,
+        "y": 380,
+        "wires": [
+            [
+                "15babd648b87d275",
+                "4b921957eb8391da"
+            ]
+        ]
+    },
+    {
+        "id": "1a3bb754cb2a3834",
+        "type": "mqtt in",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "topic": "EngineTempReading",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4b4cb29adcc3af17",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 330,
+        "y": 600,
+        "wires": [
+            [
+                "533fab131181a8af",
+                "8c0d4008fb2903fc",
+                "9edbcbcb5af5bbc5"
+            ]
+        ]
+    },
+    {
+        "id": "533fab131181a8af",
+        "type": "ui_gauge",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "group": "4d91cc4c589bd1e2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature Reading",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "150",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "100",
+        "diff": false,
+        "className": "",
+        "x": 600,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "697272d5532e944f",
+        "type": "mqtt in",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "name": "",
+        "topic": "TiresPSIReading",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4b4cb29adcc3af17",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 300,
+        "y": 780,
+        "wires": [
+            [
+                "48c43adabd7c67e9",
+                "f335b966b972647c"
+            ]
+        ]
+    },
+    {
+        "id": "dbda618fad1c1469",
+        "type": "ui_led",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "order": 1,
+        "group": "e45f98631da1397d",
+        "width": 0,
+        "height": 0,
+        "label": "PSI Warning",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#f50000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1030,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "ea10728a672b33c1",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "name": "function 1",
+        "func": "const threshold = 30;\n\nlet input = Number(msg.payload);\n\nif (input < threshold) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 780,
+        "wires": [
+            [
+                "dbda618fad1c1469"
+            ]
+        ]
+    },
+    {
+        "id": "48c43adabd7c67e9",
+        "type": "ui_text_input",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "name": "",
+        "label": "PSI Reading",
+        "tooltip": "",
+        "group": "ab4f6ce51b7061aa",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "payload",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 530,
+        "y": 780,
+        "wires": [
+            [
+                "ea10728a672b33c1"
+            ]
+        ]
+    },
+    {
+        "id": "8c0d4008fb2903fc",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "Engine Temperature State",
+        "func": "const threshold = 105;\n\nlet input = Number(msg.payload);\n\nif (input > threshold) {\n    msg.payload = true;\n} else {\n    msg.payload = false;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 640,
+        "wires": [
+            [
+                "6002aabfa59db8ea"
+            ]
+        ]
+    },
+    {
+        "id": "6002aabfa59db8ea",
+        "type": "ui_led",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "order": 1,
+        "group": "e45f98631da1397d",
+        "width": 0,
+        "height": 0,
+        "label": "Temperature Warning",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#f50000",
+                "value": "true",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "false",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "Engine Warning LED",
+        "x": 880,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "b78202c1bb19d776",
+        "type": "mqtt in",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "name": "",
+        "topic": "TiresNodeStatus",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4b4cb29adcc3af17",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 320,
+        "y": 980,
+        "wires": [
+            [
+                "6822064bef082c06"
+            ]
+        ]
+    },
+    {
+        "id": "6822064bef082c06",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "name": "function 3",
+        "func": "node.warn(`Received message: ${msg.payload}`);\n\nmsg.payload = String(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 980,
+        "wires": [
+            [
+                "317c958c12f6e4a1"
+            ]
+        ]
+    },
+    {
+        "id": "5444cf762a45e0f1",
+        "type": "ui_led",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "order": 1,
+        "group": "e45f98631da1397d",
+        "width": 0,
+        "height": 0,
+        "label": "Engine Node Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#f50000",
+                "value": "Ewn",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "Eok",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 650,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "317c958c12f6e4a1",
+        "type": "ui_led",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "order": 1,
+        "group": "e45f98631da1397d",
+        "width": 0,
+        "height": 0,
+        "label": "Tires Node Status",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#f50000",
+                "value": "Twn",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "Tok",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 650,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "ef554b2d65a79406",
+        "type": "ui_led",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "order": 1,
+        "group": "e45f98631da1397d",
+        "width": 0,
+        "height": 0,
+        "label": "Lights Node Warning",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#f50000",
+                "value": "Lwn",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "Lok",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 650,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "41c78b8727d9fe35",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "name": "function 4",
+        "func": "node.warn(`Received message: ${msg.payload}`);\n\nmsg.payload = String(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1040,
+        "wires": [
+            [
+                "5444cf762a45e0f1"
+            ]
+        ]
+    },
+    {
+        "id": "f02a550993db91a8",
+        "type": "mqtt in",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "name": "",
+        "topic": "EngineNodeStatus",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4b4cb29adcc3af17",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 1040,
+        "wires": [
+            [
+                "41c78b8727d9fe35"
+            ]
+        ]
+    },
+    {
+        "id": "96b6b553d3054641",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "name": "function 5",
+        "func": "node.warn(`Received message: ${msg.payload}`);\n\nmsg.payload = String(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1100,
+        "wires": [
+            [
+                "ef554b2d65a79406"
+            ]
+        ]
+    },
+    {
+        "id": "e8ac26b1cd6f1814",
+        "type": "mqtt in",
+        "z": "8f4871acfac9d46e",
+        "g": "cc8d631ec31de256",
+        "name": "",
+        "topic": "LightsNodeStatus",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "4b4cb29adcc3af17",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 310,
+        "y": 1100,
+        "wires": [
+            [
+                "96b6b553d3054641"
+            ]
+        ]
+    },
+    {
+        "id": "92c719f80bb43aef",
+        "type": "mqtt out",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "topic": "EngineSpeedControl",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "4b4cb29adcc3af17",
+        "x": 600,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f335b966b972647c",
+        "type": "ui_chart",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "name": "PSI Chart",
+        "group": "ab4f6ce51b7061aa",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 520,
+        "y": 840,
+        "wires": [
+            [
+                "5a7de6b7422f9078"
+            ]
+        ]
+    },
+    {
+        "id": "9edbcbcb5af5bbc5",
+        "type": "ui_chart",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "Temperature Chart",
+        "group": "4d91cc4c589bd1e2",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "150",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 590,
+        "y": 560,
+        "wires": [
+            [
+                "523bfa6e9477e30e"
+            ]
+        ]
+    },
+    {
+        "id": "4b51acf4c7554a82",
+        "type": "file",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "",
+        "filename": "C:\\Users\\test\\Desktop\\Fontys\\Semester 3\\Communication\\Project\\TempOut.txt",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1240,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "523bfa6e9477e30e",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "c16b5a984632cafa",
+        "name": "Chart to File",
+        "func": "// Extract data from the chart node output\nlet chartData = msg.payload[0].data[0]; // Access the array of data points\nlet formattedData = \"\";\n\n// Loop through each data point and format it\nchartData.forEach((point) => {\n    let timestamp = new Date(point.x).toISOString(); // Convert timestamp to a readable format\n    let temperature = point.y; // Extract the temperature value\n    formattedData += `${timestamp}, ${temperature}\\n`; // Format as a string\n});\n\n// Set the formatted data as the payload\nmsg.payload = formattedData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 850,
+        "y": 560,
+        "wires": [
+            [
+                "4b51acf4c7554a82"
+            ]
+        ]
+    },
+    {
+        "id": "499c3d38ef1a6e0a",
+        "type": "file",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "name": "",
+        "filename": "C:\\Users\\test\\Desktop\\Fontys\\Semester 3\\Communication\\Project\\PSIOut.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": false,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1250,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a7de6b7422f9078",
+        "type": "function",
+        "z": "8f4871acfac9d46e",
+        "g": "56c632db8f7a3481",
+        "name": "function 7",
+        "func": "// Extract data from the chart node output\nlet chartData = msg.payload[0].data[0]; // Access the array of data points\nlet formattedData = \"\";\n\n// Loop through each data point and format it\nchartData.forEach((point) => {\n    let timestamp = new Date(point.x).toISOString(); // Convert timestamp to a readable format\n    let psiValue = point.y; // Extract the psiValue value\n    formattedData += `${timestamp}, ${psiValue}\\n`; // Format as a string\n});\n\n// Set the formatted data as the payload\nmsg.payload = formattedData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 840,
+        "wires": [
+            [
+                "499c3d38ef1a6e0a"
+            ]
+        ]
+    },
+    {
+        "id": "4b4cb29adcc3af17",
+        "type": "mqtt-broker",
+        "name": "MosquittoLocal",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "4d91cc4c589bd1e2",
+        "type": "ui_group",
+        "name": "Engine",
+        "tab": "9fb94cc83e4accaa",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "89d09f84b62e507a",
+        "type": "ui_group",
+        "name": "Lights",
+        "tab": "9fb94cc83e4accaa",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e45f98631da1397d",
+        "type": "ui_group",
+        "name": "Warnings",
+        "tab": "9fb94cc83e4accaa",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab4f6ce51b7061aa",
+        "type": "ui_group",
+        "name": "Tires",
+        "tab": "9fb94cc83e4accaa",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9fb94cc83e4accaa",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

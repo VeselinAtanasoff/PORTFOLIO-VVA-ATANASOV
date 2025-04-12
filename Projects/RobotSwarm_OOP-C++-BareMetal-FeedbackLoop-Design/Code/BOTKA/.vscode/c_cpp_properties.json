@@ -1,0 +1,45 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "d:/Fontys sem 3/ES/t3-group-sp24-batkabot/Code/BOTKA/include",
+                "d:/Fontys sem 3/ES/t3-group-sp24-batkabot/Code/BOTKA/src",
+                "C:/Users/veset/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "C:/Users/veset/.platformio/packages/framework-cmsis-stm32f3/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/Fontys sem 3/ES/t3-group-sp24-batkabot/Code/BOTKA/include",
+                    "d:/Fontys sem 3/ES/t3-group-sp24-batkabot/Code/BOTKA/src",
+                    "C:/Users/veset/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "C:/Users/veset/.platformio/packages/framework-cmsis-stm32f3/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60116",
+                "STM32F3",
+                "STM32F303xE",
+                "F_CPU=72000000L",
+                ""
+            ],
+            "compilerPath": "C:/Users/veset/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mfloat-abi=softfp",
+                "-mfpu=fpv4-sp-d16",
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
